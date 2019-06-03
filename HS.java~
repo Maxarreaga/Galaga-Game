@@ -1,0 +1,30 @@
+public class HS implements Comparable<HS>
+{
+  int score;
+  String name;
+  public int getscore()
+  {
+   return score; 
+  }
+  public void setscore(int sc)
+  {
+    score = sc;
+  }
+  public void setname(String namee)
+  { 
+   name = namee;
+  }
+  public String getname()
+  {
+   return name; 
+  }
+  
+  public int compareTo(HS highscore)
+  {
+    comparison = new.Integer(score).compareTo(new Integer(highscore.getscore)));
+    
+   return comparison 
+  }
+  
+  
+}
